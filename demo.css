@@ -56,7 +56,12 @@ li /* Tag selector */ {
 .gold /* Class selector */ {
     background-color: #ffa600;
 }
-
+.poetry{
+    color: black;
+}
+.h3 {
+    color: black;
+}
 /** POPUP MENU **/
 /* Hidden when not in use */
 .popup li {
@@ -68,11 +73,11 @@ li /* Tag selector */ {
     display: list-item;
 }
 
-.yes {
+.present {
     font-family: "Georgia", 'New Century Schoolbook', serif;
 }
 
-.no {
+.passe {
     font-family: "Garamond", serif;
 }
 
@@ -81,7 +86,8 @@ li /* Tag selector */ {
    Always end your list with one of the generic families, so there's
    *something* the browser can use. */
 .happy {
-    font-family: "Western", "Comic Sans", fantasy;
+    font-family: "Western", "Western", "Western";
+    text-decoration: underline;
 }
 
 .up {
@@ -91,21 +97,24 @@ li /* Tag selector */ {
 
 .down {
     font-family: "Courier", monospace;
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 .lots {
     font-weight: bolder;
+    text-decoration: underline;
 }
 
 .plenty {
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Helvetica', "Western", sans-serif;
     font-weight: bolder;
+    text-decoration: underline;
 }
 
 .want {
     font-family: 'Helvetica Narrow', 'Arial Narrow', sans-serif;
-    font-weight: lighter;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 /* Font Style */
@@ -185,17 +194,102 @@ ol.outline {
 }
 
 .outline > li > ol {
-    list-style-type: upper-alpha;
+    list-style-type: upper-roman;
 }
 
 .outline > li > ol > li > ol {
-    list-style-type: decimal;
+    list-style-type: upper-roman;
 }
 
 .outline > li > ol > li > ol > li > ol {
-    list-style-type: lower-alpha;
+    list-style-type: upper-roman;
 }
 
 .outline > li > ol > li > ol > li > ol > li > ol {
     list-style-type: lower-roman;
 }
+
+ol.outline {
+    margin-left: 30em
+}
+
+
+
+
+.purple
+   {margin-right: 17em}
+
+.purple
+   {margin-left: 15em}
+
+   h1 { 
+    color: rgb(255, 249, 194); 
+    background: rgb(255, 209, 123); 
+    border: solid;
+  }
+
+  h2 { 
+    color: rgb(255, 249, 194); 
+    background: rgb(255, 209, 123); 
+    border: solid;
+  }
+
+  strong { 
+    color: rgb(255, 110, 219); 
+    background: rgb(255, 209, 123); 
+    border: solid;
+  }
+
+  table {
+    border: solid;
+}
+
+tr:first-child th {
+    border-bottom-style: double;
+}
+
+th.passe {
+    border: thin solid;
+    padding-top: 2ex;
+    padding-right: 2ex;
+    padding-bottom: 2ex;
+    padding-left: 2ex;
+
+}
+
+tr > :first-child {
+    border-right: thin solid;
+}
+
+td.happy {
+
+    border: thin solid
+}
+
+td:last-of-type {
+    border-left: thin solid;
+}
+
+tr:last-child td:not(:nth-of-type(1)) {
+    border-top: thin solid;
+}
+
+td {
+    padding-top: 2ex;
+    padding-right: 2ex;
+    padding-bottom: 2ex;
+    padding-left: 2ex;
+}
+
+.purple > li{
+    display: inline;
+    padding-left: 2em;
+}
+
+div.poetry {
+    column-width: 15em;
+
+
+}
+
+/**border and right margin and table dotted line make a table with padding**/
